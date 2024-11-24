@@ -1,8 +1,14 @@
-import LargeButton from './largeButton';
+import CustomButton from './customButton';
 import React from 'react';
 
 function App () {
-    return <LargeButton />
+
+    return (<>
+    <CustomButton/>
+    <CustomButton/>
+    </>
+    )
+
 }
 
 export default App;
